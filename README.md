@@ -5,7 +5,8 @@ Une application de gestion de firewalls, politiques de filtrage et règles de fi
 
 1. Cloner le dépôt
 2. Installer les dépendances : `pip install -r requirements.txt`
-3. Lancer l'application : `flask run`
+3. Définir la variable d'environnement FLASK_APP : `export FLASK_APP=app/run.py`
+4. Lancer l'application : `flask run`
 
 ## Utilisation
 Vous pouvez tester les APIs avec Swagger en visitant `/swagger-ui`.
